@@ -10,8 +10,6 @@
                                               \/__/
 */
 
-
-/// <reference path="../typings/tsd.d.ts" />
 /// <reference path="../typings/figlet.d.ts" />
 
 import figlet = require('figlet');
