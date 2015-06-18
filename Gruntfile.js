@@ -9,8 +9,8 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         clean: {
             lib: {
-                src: ['lib/*']
-            }
+                src: ['lib/*', 'src/*.js*']
+            } 
         },
         ts: {
             lib: {
